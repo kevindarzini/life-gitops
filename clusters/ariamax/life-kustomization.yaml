@@ -6,12 +6,12 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ../../../apps/life-app/
+  path: ../../apps/life-app/
   prune: true
   retryInterval: 2m0s
   sourceRef:
     kind: GitRepository
-    name: hello-life
+    name: life-gitops
   targetNamespace: life
   timeout: 2m0s
   wait: true
