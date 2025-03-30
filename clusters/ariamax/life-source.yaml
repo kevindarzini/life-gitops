@@ -2,10 +2,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: hello-life
+  name: life-gitops
   namespace: flux-system
 spec:
   interval: 30s
   ref:
-    branch: master
-  url: https://github.com/kevindarzini/hello-life.git
+    branch: main
+  url: https://github.com/kevindarzini/life-gitops.git
