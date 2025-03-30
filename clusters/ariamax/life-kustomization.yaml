@@ -11,7 +11,7 @@ spec:
   retryInterval: 2m0s
   sourceRef:
     kind: GitRepository
-    name: hello-app
+    name: hello-life
   targetNamespace: life
   timeout: 2m0s
   wait: true
