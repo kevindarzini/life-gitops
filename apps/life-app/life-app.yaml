@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: ./hello-life/
+      chart: ./
       sourceRef:
         kind: GitRepository
         name: flux-system
