@@ -10,7 +10,7 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
-        name: flux-system
+        name: hello-life
   interval: 1m0s
   install:
     createNamespace: true
